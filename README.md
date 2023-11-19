@@ -20,6 +20,9 @@ https://store.steampowered.com/app/1690800/Satisfactory_Survival/
 2. Move **WindowsGSM.Satisfactory.cs** folder to plugins folder
 3. Click **[RELOAD PLUGINS]** button or restart WindowsGSM
 
+4. This now is setup for Update 8 servers
+5. ( IF TRYING TO START SERVER WITH UPDATE 7 SAVE YOU MAY HAVE TO DELETE THE SAVE FILES MANUALLY AND THEN TRY TO START SERVER OR THE SERVER MAY NOT START AS OLD SAVES ARE WITH UE4 ENGINE AND UPDATE 8 USES UE5 ENGINE)
+
 # Settings
 
 1. Open game and connect
