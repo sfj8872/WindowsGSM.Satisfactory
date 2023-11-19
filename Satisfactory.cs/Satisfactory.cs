@@ -19,7 +19,7 @@ namespace WindowsGSM.Plugins
             name = "WindowsGSM.Satisfactory.Early", // WindowsGSM.XXXX
             author = "werewolf2150",
             description = "WindowsGSM plugin for supporting Satisfactory Dedicated Server Early Access",
-            version = "1.3",
+            version = "1.4",
             url = "https://github.com/werewolf2150/WindowsGSM.Satisfactory", // Github repository link (Best practice)
             color = "#34c9eb" // Color Hex
         };
@@ -35,7 +35,7 @@ namespace WindowsGSM.Plugins
 
 
         // - Game server Fixed variables
-        public override string StartPath => @"Engine\Binaries\Win64\UE4Server-Win64-Shipping.exe"; // Game server start path
+        public override string StartPath => @"Engine\Binaries\Win64\UnrealServer-Win64-Shipping.exe"; // Game server start path
         public string FullName = "Satisfactory Dedicated Server Early"; // Game server FullName
         public bool AllowsEmbedConsole = true;  // Does this server support output redirect?
         public int PortIncrements = 1; // This tells WindowsGSM how many ports should skip after installation
